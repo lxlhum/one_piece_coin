@@ -8,7 +8,7 @@
 
 ### 3. 高亮一段代码[^code]
 
-```python
+```JavaScript
 @requires_authorization
 class SomeClass:
     pass
@@ -16,18 +16,6 @@ class SomeClass:
 if __name__ == '__main__':
     # A comment
     print 'hello world'
-```
-### 4. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
 ```
 
 
